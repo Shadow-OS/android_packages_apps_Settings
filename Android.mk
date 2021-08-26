@@ -54,6 +54,12 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
 
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
+LOCAL_AAPT_FLAGS := --auto-add-overlay \
+    --extra-packages com.shadow.settings
+
+LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res \
+    packages/apps/ShadowCave/res
+
 ifneq ($(INCREMENTAL_BUILDS),)
     LOCAL_PROGUARD_ENABLED := disabled
     LOCAL_JACK_ENABLED := incremental
