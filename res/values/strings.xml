@@ -41,7 +41,7 @@
     <string name="dev_settings_disabled_warning">Please enable developer options first.</string>
 
     <!-- Shadow OS version in About phone -->
-    <string name="hycon_version_title">Shadow version</string>
+    <string name="shadow_version_title">Shadow version</string>
 
     <!-- Category headings in left-pane header menu --> <skip />
     <!-- Settings main menu category heading. Wireless and networks (Wi-Fi, Bluetooth, data usage...). [CHAR LIMIT=40] -->
