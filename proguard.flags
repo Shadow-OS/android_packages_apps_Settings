@@ -66,3 +66,7 @@
 -keepclasseswithmembers class * extends com.android.settings.slices.SliceBackgroundWorker {
     public <init>(android.content.Context, android.net.Uri);
 }
+
+# ShadowCave
+-keep class com.shadow.settings.**
+}
