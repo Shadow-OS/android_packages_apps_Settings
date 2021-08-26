@@ -1,0 +1,2 @@
+# ShadowCave
+-keep class com.shadow.settings.**
